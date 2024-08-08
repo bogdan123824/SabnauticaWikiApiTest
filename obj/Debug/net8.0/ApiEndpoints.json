@@ -1,0 +1,607 @@
+[
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.BiomesController",
+    "Method": "Post",
+    "RelativePath": "Biomes/AddBiome",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "habitat",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "usefulThings",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Biome",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.BiomesController",
+    "Method": "Delete",
+    "RelativePath": "Biomes/DeleteBiome",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.BiomesController",
+    "Method": "Get",
+    "RelativePath": "Biomes/GetBiomes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Biome",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.BiomesController",
+    "Method": "Put",
+    "RelativePath": "Biomes/UpdateBiome",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateBiome",
+        "Type": "SabnauticaWiki.SabnauticaClass.Biome",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.EquipmentController",
+    "Method": "Post",
+    "RelativePath": "Equipment/AddEquipment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "forGetting",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "inventorySlot",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Equipment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.EquipmentController",
+    "Method": "Delete",
+    "RelativePath": "Equipment/DeleteEquipment",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.EquipmentController",
+    "Method": "Get",
+    "RelativePath": "Equipment/GetEquipment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Equipment",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.EquipmentController",
+    "Method": "Put",
+    "RelativePath": "Equipment/UpdateEquipment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateEquipment",
+        "Type": "SabnauticaWiki.SabnauticaClass.Equipment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FaunaController",
+    "Method": "Post",
+    "RelativePath": "Fauna/AddFauna",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "attitude",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "health",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "biome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "damage",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "lenght",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "weight",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Fauna",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FaunaController",
+    "Method": "Delete",
+    "RelativePath": "Fauna/DeleteFauna",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FaunaController",
+    "Method": "Get",
+    "RelativePath": "Fauna/GetFauna",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Fauna",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FaunaController",
+    "Method": "Put",
+    "RelativePath": "Fauna/UpdateFauna",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateFauna",
+        "Type": "SabnauticaWiki.SabnauticaClass.Fauna",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FloraController",
+    "Method": "Post",
+    "RelativePath": "Flora/AddFlora",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "biome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "inventorySlot",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "seed",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Flora",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FloraController",
+    "Method": "Delete",
+    "RelativePath": "Flora/DeleteFlora",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FloraController",
+    "Method": "Get",
+    "RelativePath": "Flora/GetFlora",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Flora",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.FloraController",
+    "Method": "Put",
+    "RelativePath": "Flora/UpdateFlora",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateFlora",
+        "Type": "SabnauticaWiki.SabnauticaClass.Flora",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Flora",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.VehicleController",
+    "Method": "Post",
+    "RelativePath": "Vehicle/AddVehicle",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imerssionDepth",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "health",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fragments",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "damage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "locationFragments",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "storage",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Vehicle",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.VehicleController",
+    "Method": "Delete",
+    "RelativePath": "Vehicle/DeleteVehicle",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.VehicleController",
+    "Method": "Get",
+    "RelativePath": "Vehicle/GetVehicle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SabnauticaWiki.SabnauticaClass.Vehicle",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.VehicleController",
+    "Method": "Put",
+    "RelativePath": "Vehicle/UpdateVehicle",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updateVehicle",
+        "Type": "SabnauticaWiki.SabnauticaClass.Vehicle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SabnauticaWiki.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SabnauticaWiki.WeatherForecast, SabnauticaWiki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
